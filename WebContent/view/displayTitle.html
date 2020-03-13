@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Mine Sweeper for HTML Ver.01</title>
+</head>
+<body>
+	<form action="../controller/createBoard" method="post">
+		<h2>Mine Sweeper 81</h2>
+		<p>
+			###################################<br>
+			 マインスイーパー for HTML Ver.0.1 <br>
+			<br>
+			 9x9マスのボード上に爆弾があります。<br>
+			 爆弾以外のマスを全部開けたら成功です。<br>
+			<br>
+			 まず、難易度を選択してください。<br>
+			<br>
+			 かんたん（爆弾５〜１０個）<br>
+			 ふつう（爆弾１０〜２０個）<br>
+			 やばい（爆弾２０〜３０個）<br>
+			 おに（爆弾３０〜４０個）<br>
+			<br>
+			 それでは、お楽しみ下さい。<br>
+			                        by 遊爺 <br>
+			<br>
+			###################################<br>
+			<br>
+		</p>
+		難易度：<select name="level">
+			<option value="e">かんたん</option>
+			<option value="n">ふつう</option>
+			<option value="h">やばい</option>
+			<option value="d">おに</option>
+		</select> で <input type="submit" value="やっちゃうよ〜！">
+	</form>
+</body>
+</html>
